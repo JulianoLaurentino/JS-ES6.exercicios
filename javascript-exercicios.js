@@ -30,9 +30,9 @@ const arr = [1,2,3,4,5];
 arr.slice(0,2);
 console.log(arr);
 [1,2]
-//splice (remove as variáveis dentro do array 
+/**splice (remove as variáveis dentro do array 
 que não são chamadas e pode incluir outras
-para dentro do array )
+para dentro do array )**/
 const arr = [1,2,3,4,5];
 arr.splice(0,2);
 console.log(arr);
