@@ -79,4 +79,20 @@ const students = [
 students.some (student ==> student.grade >= 7);
 -boolean- FALSE or TRUE
 students.find (student ==> student.grade >= 7);
-
+	       
+	       
+	       
+/** o metodo filter() cria um novo array com todos os elementos que 
+passaram no teste implementado pela função fornecida
+o retorno do filter() é outro array**/	       
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]; //array original
+const numberpar = numbers.filter((number) {
+	       return number % 2 == 0;
+	       });
+// o array numberspar é o array original apenas com os números pares
+console.log(numberspar);
+	       
+	       
+const animals = ["lion", "tiger", "elephant", "shark"];
+const cats = animals.filter((animal) animal = "lion" || animal = "tiger");
+console.log(cats);	       
