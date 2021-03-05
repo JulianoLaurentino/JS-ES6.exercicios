@@ -144,6 +144,10 @@ elements.map(function(element) {
   return element.length;
 }); // esta sentença retorna o array: [8, 6, 7, 9]
 	       
+// A função regular acima pode ser escrita como a arrow function abaixo
+elements.map((element) => {
+  return element.length;
+}); // [8, 6, 7, 9]	       
 	       
 	       
 	       
