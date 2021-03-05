@@ -128,5 +128,23 @@ while (i<6)
 
 }
 
-console.log(total + " valores positivos");	       
+console.log(total + " valores positivos");	
+	       
+	       
+	       
+//setença para retornar um array	      
+var elements = [
+  'Hydrogen',
+  'Helium',
+  'Lithium',
+  'Beryllium'
+];
+
+elements.map(function(element) {
+  return element.length;
+}); // esta sentença retorna o array: [8, 6, 7, 9]
+	       
+	       
+	       
+	       
 	       
